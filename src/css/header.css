@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #082032;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.headerInteractables {
+  display: flex;
+  gap: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.myMenuLogo {
+  color: #EDEDED;
+  font-size: 30px;
+  margin-right: auto;
+}
+
+h3 {
+  color: #EDEDED;
+  font-size: 18px;
+  cursor: pointer;
+}
