@@ -24,7 +24,7 @@ body {
   z-index: 1000;
 }
 
-.header-interactables {
+.headerInteractables {
   display: flex;
   gap: 100px;
   position: absolute;
@@ -32,7 +32,7 @@ body {
   transform: translateX(-50%);
 }
 
-.my-menu-logo {
+.myMenuLogo {
   color: #EDEDED;
   font-size: 30px;
   margin-right: auto;
