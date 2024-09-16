@@ -1,0 +1,21 @@
+.card {
+  background-color: #082032;
+  border-radius: 5%;
+}
+
+.dishImage {
+  height: 200px;
+  width: 300px;
+  margin-top: 30px;
+}
+
+.dishName {
+  font-size: 30px;
+}
+
+.buttonsCard {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  gap: 30px;
+}

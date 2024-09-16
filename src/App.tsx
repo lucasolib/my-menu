@@ -1,6 +1,6 @@
-import './App.css'
-import Card from './dishCard'
-import Header from './header'
+import './App.css';
+import Card from './dishCard';
+import Header from './header';
 
 function App() {
   return (
@@ -9,6 +9,6 @@ function App() {
       <Card />
     </body>
   )
- }
+ };
 
-export default App
+export default App;
