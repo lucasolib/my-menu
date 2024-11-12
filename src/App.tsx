@@ -1,13 +1,14 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Card from './dishCard';
 import Header from './header';
+import MyMenu from './myMenu';
 
 function App() {
   return (
-    <body>
-      <Header/>
-      <Card />
-    </body>
+      <Routes>
+        <Route path='/' element={ <Header/> }/> 
+        <Route path='/myMenu' element={ <MyMenu /> }/>
+      </Routes>
   )
  };
 
